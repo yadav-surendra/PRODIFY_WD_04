@@ -1,5 +1,6 @@
 // src/App.js
 import React from 'react';
+import './project.css';
 import CarousolCard from './CarausolCard';
 
 const projects = [
