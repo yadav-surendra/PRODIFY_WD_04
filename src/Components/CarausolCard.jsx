@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./Carousel.css";
 
-const Carousol_card = ({ projects }) => {
+const CarousolCard = ({ projects }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
@@ -51,4 +51,4 @@ const Carousol_card = ({ projects }) => {
   );
 };
 
-export default Carousol_card;
+export default CarousolCard;

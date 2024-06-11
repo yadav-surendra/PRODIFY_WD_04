@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import Carousol_card from './Carausol_card';
+import CarousolCard from './CarausolCard';
 
 const projects = [
   { title: 'HangMan Game', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, incidunt repudiandae. Non excepturi est totam nisi quas neque beatae quaerat ad. Maxime aspernatur deserunt consequuntur praesentium perspiciatis commodi,' , cardImg: require('./hang.png') },
@@ -17,7 +17,7 @@ function Carausol() {
   return (
     <div className="Carousel-app">
       <h2>My Projects</h2>
-      <Carousol_card projects={projects} />
+      <CarousolCard projects={projects} />
     </div>
   );
 }

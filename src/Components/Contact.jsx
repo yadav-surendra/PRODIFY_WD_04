@@ -132,7 +132,7 @@ function Contact() {
                       <div className="text pl-3">
                         <p>
                           <span>Phone:</span>
-                          <a href="tel://123456789">+1235 2355 98</a>
+                          <a href="123456789">+1235 2355 98</a>
                         </p>
                       </div>
                     </div>
@@ -143,7 +143,7 @@ function Contact() {
                       <div className="text pl-3">
                         <p>
                           <span>Email:</span>
-                          <a href="mailto:info@yoursite.com">
+                          <a href="hello@gmail.com">
                             info@yoursite.com
                           </a>
                         </p>
