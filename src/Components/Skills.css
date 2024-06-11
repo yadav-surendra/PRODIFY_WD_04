@@ -49,4 +49,9 @@
     color: #666;
   }
 
-  
+  @media screen and (max-width: 600px) {
+    .skills-container{
+      width: 100%;
+      margin: 0;
+    }
+  }

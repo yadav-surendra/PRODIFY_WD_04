@@ -4,13 +4,13 @@ import './project.css';
 import CarousolCard from './CarausolCard';
 
 const projects = [
-  { title: 'HangMan Game', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, incidunt repudiandae. Non excepturi est totam nisi quas neque beatae quaerat ad. Maxime aspernatur deserunt consequuntur praesentium perspiciatis commodi,' , cardImg: require('./hang.png') },
-  { title: 'Expense Tracker App', description: 'Description for Project 2' , cardImg:require('./expense-tracker.png')},
-  { title: 'Currency Exchange App', description: 'Description for Project 3', cardImg:require('./money.jpg') },
-  { title: 'Student Database', description: 'Description for Project 3', cardImg:require('./recordmgmt.png') },
-  { title: 'Weather App', description: 'Description for Project 1' , cardImg: require('./weather.png') },
-  { title: 'Amazon Clone', description: 'Description for Project 2' , cardImg:require('./amazon.png')},
-  { title: 'TicTacToe', description: 'Description for Project 3', cardImg:require('./tictac.png') },
+  { title: 'HangMan Game', description: 'developed this game with C++ using the class for storing the keywords' , cardImg: require('./hang.png') },
+  { title: 'Expense Tracker App', description: 'A simple solution to tratck your expenses and your fiance partner.' , cardImg:require('./expense-tracker.png')},
+  { title: 'Currency Exchange App', description: 'Simple and handy tool to check the exchange rate any time', cardImg:require('./money.jpg') },
+  { title: 'Student Database', description: 'Solution for the student record management in schools and colleges', cardImg:require('./recordmgmt.png') },
+  { title: 'Weather App', description: 'Easy platform to check about the weather conditions of your city/town anytime anywhere.' , cardImg: require('./weather.png') },
+  { title: 'Amazon Clone', description: 'Clone of the Amazom website as part of learning frontend development.' , cardImg:require('./amazon.png')},
+  { title: 'TicTacToe', description: 'Fun project to implement the learning of the concepts of JS', cardImg:require('./tictac.png') },
   
 ];
 

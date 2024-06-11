@@ -17,7 +17,7 @@ function App() {
     <>
     <Navbar />
     <main className="main">
-      <Home />
+    <Home />
     <Skills />
     <Carausol />
     <Timeline />
