@@ -156,7 +156,7 @@ function Contact() {
                       <div className="text pl-3">
                         <p>
                           <span>Website:</span>
-                          <a href="#">yoursite.com</a>
+                          <a href="surendra5@netlify.com">yoursite.com</a>
                         </p>
                       </div>
                     </div>
