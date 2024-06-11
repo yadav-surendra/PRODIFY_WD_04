@@ -62,8 +62,9 @@ nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: #29335c;
+		background-color: #ea6025;
 		transition: 1s;
+
 	}
 
 	header .responsive_nav {
