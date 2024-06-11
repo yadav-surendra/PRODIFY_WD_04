@@ -1,0 +1,94 @@
+/* Home.css */
+
+/* General styling for the Home component container */
+.home-container {
+  margin-top: 5.8rem;
+  margin-bottom: 6rem;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+  /* Styling for the Socia component */
+  .mysocial {
+    
+   margin-left: 100px;
+  }
+  
+  /* Styling for individual social media icons */
+  .mysocial a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .mysocial a:hover {
+    color: #0073e6;
+  }
+  
+  /* Styling for the Data component */
+  .data {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    max-width: 600px;
+  }
+  
+  .data h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .data p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Flexbox layout for the Home component */
+  .home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .home_img{
+    background:url('about.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow:inset 0 0 0 9px rgb(255,255,255/30%);
+    order: 1;
+    margin-right: 100px;
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+   animation-name: profile;
+   animation-duration: 5s;
+   animation-iteration-count:infinite ;
+  }
+  @keyframes profile {
+    0% {
+      border-radius: 5%;
+  }
+  10% {
+      border-radius: 50% 0 0 50%;
+  }
+  50% {
+      border-radius: 0 50% 50% 0;
+  }
+  70% {
+      border-radius: 50% 0 0 50%;
+  }
+  100% {
+      border-radius: 100%;
+  }
+  }
+
+  

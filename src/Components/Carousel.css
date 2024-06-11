@@ -1,0 +1,93 @@
+/* src/Carousel.css */
+
+.Carousel-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 7rem 3rem;
+}
+.Carousel-app h1 {
+    font-family: 'Poppins',"sans-serif";
+}
+
+/* Carousel-card css */
+
+.carousel {
+    position: relative;
+    width: 500px;
+    height: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(-1);
+  }
+  
+  .carousel-item {
+    box-sizing: border-box;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+  }
+  .skill-icon-card {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 2rem;
+    
+  }
+
+  .project-img{
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    content: fit;
+  }
+
+  .box{
+    margin-top: 1.5rem;
+    width: 100%;
+    min-height: 6rem;
+    padding: 5px 5px;
+    background-color: antiquewhite;
+    border-radius: 5%;
+  }
+
+  
+  .carousel-item.active {
+    display: flex;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  .button-control {
+    background-color: #e1306c;
+    border-radius: 5px;
+  }
+  
+  .carousel-control.prev {
+    left: 10px;
+    
+  }
+  
+  .carousel-control.next {
+    right: 10px;
+  }

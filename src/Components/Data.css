@@ -1,0 +1,71 @@
+/* Data.css */
+
+/* Container for the Data component */
+.home__data {
+    width: 40%;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  /* Styling for the title */
+  .home__title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Adjusting the size and margin for the SVG icon in the title */
+  .home__hand {
+    margin-left: 10px;
+    width: 36px;
+    height: 36px;
+  }
+  
+  /* Styling for the subtitle */
+  .home__subtitle {
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for the description */
+  .home__description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the button */
+  .button {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Styling for the button icon */
+  .button__icon {
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  

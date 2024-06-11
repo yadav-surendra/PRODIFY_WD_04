@@ -1,0 +1,57 @@
+.footer-container {
+    padding: 10px 10px;
+    background-color: #29335C;
+    color: rgb(211, 205, 205);
+    font-size: 14px;
+    font-weight: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.col1 {
+    padding: 8px 10px;
+   margin-top: 26px;
+}
+.foot-info {
+    padding-bottom: 7px;
+}
+.foot-info span {
+    padding-left: 10px;
+}
+
+.col2{
+    width: 50vw;
+    margin-top: -10px;
+}
+.col2 h5{
+    size: 25px;
+    color: rgb(211, 205, 205);
+}
+.col2 p{
+    margin-top: -2px;
+    max-width: 50vw;
+}
+.footer-brands {
+width: 100px;
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+.ft-icon{
+    height: 30px;
+    width: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+   .footer-container {
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .col1 {
+   margin-top: 15px;
+   margin-bottom: 2rem;
+}
+}
